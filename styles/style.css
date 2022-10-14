@@ -1,9 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #fbd5d0;
 }
 
 body.product-body {
   border: 3px solid palegreen;
+}
+
+body.shoe-body {
+  border: 3px solid palegreen;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 h1,
@@ -22,12 +36,29 @@ h1 {
   font-style: italic;
 }
 
+h1.shoe-offer {
+  text-align: center;
+  padding: 15px;
+}
+
+.shipping {
+  margin-bottom: 20px;
+}
+
+.more-information {
+  margin-bottom: 20px;
+}
+
 h2 {
   font-size: 40px;
 }
 
 h3 {
   font-size: 30px;
+}
+
+h3.details {
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -154,4 +185,8 @@ nav {
 button {
   border: none;
   background-color: palegreen;
+}
+
+button.cart-button {
+  width: 100%;
 }
